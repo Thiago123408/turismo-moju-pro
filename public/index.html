@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Turismo Mojuense</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <!-- Leaflet CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+  <script defer src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script defer src="assets/js/app.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">🌴 Turismo Mojuense</div>
+    <nav class="menu">
+      <a href="index.html" class="ativo">Início</a>
+      <a href="pontos.html">Pontos</a>
+      <a href="comunidades.html">Comunidades</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <h1>Descubra Moju</h1>
+      <p>Natureza, cultura e hospitalidade no coração do Pará.</p>
+      <a class="btn" href="pontos.html">Explorar Pontos Turísticos</a>
+    </div>
+  </section>
+
+  <section class="grid-atalhos">
+    <article class="atalho-card">
+      <h3>Natureza</h3>
+      <p>Trilhas, rios e paisagens de tirar o fôlego.</p>
+      <a href="pontos.html?cat=natureza">Ver mais</a>
+    </article>
+    <article class="atalho-card">
+      <h3>História</h3>
+      <p>Praças, igrejas e espaços culturais.</p>
+      <a href="pontos.html?cat=historia">Ver mais</a>
+    </article>
+    <article class="atalho-card">
+      <h3>Comunidades</h3>
+      <p>Conheça a Comunidade da Ribeira e outras.</p>
+      <a href="comunidades.html">Ver mais</a>
+    </article>
+  </section>
+
+  <section class="mapa-home">
+    <h2>Mapa Geral</h2>
+    <div id="mapHome" class="map"></div>
+  </section>
+
+  <footer class="rodape">
+    <p>© 2025 Turismo Mojuense • Feito por Thiago Gonçalves</p>
+  </footer>
+</body>
+</html>

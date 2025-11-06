@@ -1,0 +1,51 @@
+{
+  "pontos": [
+    {
+      "id": 1,
+      "nome": "Rio Moju",
+      "descricao": "Principal rio da cidade, perfeito para passeios de barco e pesca.",
+      "lat": -1.8899,
+      "lng": -48.7690,
+      "imagem": "assets/img/rio-moju.jpg",
+      "categoria": "natureza",
+      "bairro": "Beira do Rio"
+    },
+    {
+      "id": 2,
+      "nome": "Praça da Matriz",
+      "descricao": "Centro histórico e cultural, ponto de encontro e eventos.",
+      "lat": -1.8827,
+      "lng": -48.7771,
+      "imagem": "assets/img/praca-matriz.jpg",
+      "categoria": "historia",
+      "bairro": "Centro"
+    },
+    {
+      "id": 3,
+      "nome": "Trilha do Bosque Encantado",
+      "descricao": "Trilha ecológica com biodiversidade e contato direto com a natureza.",
+      "lat": -1.9400,
+      "lng": -48.8200,
+      "imagem": "assets/img/bosque.jpg",
+      "categoria": "natureza",
+      "bairro": "Zona Rural"
+    }
+  ],
+  "comunidades": [
+    {
+      "slug": "ribeira",
+      "nome": "Comunidade da Ribeira",
+      "descricao": "Comunidade ribeirinha tradicional, com artesanato, pequenas pousadas familiares e trilhas às margens do rio.",
+      "destaques": [
+        "Passeios de canoa guiados por moradores",
+        "Artesanato de fibras naturais",
+        "Gastronomia local (peixes e frutas regionais)"
+      ],
+      "contatos": {
+        "associacao": "(91) 9 0000-0000",
+        "email": "ribeira@moju.pa.gov.br"
+      },
+      "local": { "lat": -1.9005, "lng": -48.7805 }
+    }
+  ]
+}
